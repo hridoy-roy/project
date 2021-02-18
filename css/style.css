@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.main-content{
+
+}
+.main-content > div > div{
+    text-align: center;
+}
+.main-content > div > div > img{
+    width: 350px;
+} 
+.main-content > div > div >div > strong{
+    font-size: 18px;
+    font-weight: 900;
+}
+.main-content > div > div >div > p{
+    margin: 0;
+    font-size: 16px;
+}
+.main-content > div > div > p{
+    border: 1px solid #848484;
+    margin: 10px;
+    padding: 30px 50px;
+    font-size: 17px;
+    color: #000;
+}
+.buttom-section{
+    align-items: center;
+}
+.buttom-section > div > img{
+    width: 300px;
+    height: auto;
+}
+.right-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttom-section > div > div{
+    text-align: center;
+}
+.buttom-section > div > div > p{
+    border: 1px solid #848484;
+    margin: 10px 10px 20px 10px;
+    padding: 30px;
+    font-size: 20px;
+    color: #000;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.buttom-section > div > div > strong{
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    .buttom-section > div > div > p{
+        margin: 10px 5px 20px 5px;
+    }
+    .buttom-section > div > img{
+    width: 200px;
+    height: auto;
+    display: none i !important;
+}
+    
+  }
